@@ -1,0 +1,30 @@
+cat << 'EOF' > .gitignore
+# Maven / Build Artifacts
+target/
+dependency-reduced-pom.xml
+
+# Logs
+*.log
+logs/
+nohup.out
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Java
+*.class
+
+# Env
+.env
+.env.*
+EOF
+
